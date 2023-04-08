@@ -1,25 +1,33 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+﻿# define a imagem base
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
 
-#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-#For more information, please see https://aka.ms/containercompat
-
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+# define o diret�rio de trabalho
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["cleanarch.UI/cleanarch.UI.csproj", "cleanarch.UI/"]
-RUN dotnet restore "cleanarch.UI/cleanarch.UI.csproj"
-COPY . .
-WORKDIR "/src/cleanarch.UI"
-RUN dotnet build "cleanarch.UI.csproj" -c Release -o /app/build
+# copia todos os arquivos .csproj para o diret�rio de trabalho
+COPY cleanarch.Domain/*.csproj ./cleanarch.Domain/
+COPY cleanarch.UI/*.csproj ./cleanarch.UI/
 
-FROM build AS publish
-RUN dotnet publish "cleanarch.UI.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-FROM base AS final
+# restaura as depend�ncias
+RUN dotnet restore ./cleanarch.Domain/cleanarch.Domain.csproj
+RUN dotnet restore ./cleanarch.UI/cleanarch.UI.csproj
+
+# copia o resto dos arquivos da aplica��o para o diret�rio de trabalho
+COPY . ./
+
+# compila a aplica��o
+RUN dotnet publish -c Release -o out cleanarch.Domain/cleanarch.Domain.csproj
+RUN dotnet publish -c Release -o out cleanarch.UI/cleanarch.UI.csproj
+
+# define a imagem de destino
+FROM mcr.microsoft.com/dotnet/aspnet:5.0
+
+# define o diret�rio de trabalho
 WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "cleanarch.UI.dll"]
+
+# copia a sa�da da compila��o para a imagem de destino
+COPY --from=build-env /app/out .
+
+# inicia a aplica��o quando o cont�iner for iniciado
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet cleanarch.UI.dll
