@@ -1,5 +1,5 @@
 ﻿# define a imagem base
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 
 # define o diret�rio de trabalho
 WORKDIR /app
@@ -21,7 +21,7 @@ RUN dotnet publish -c Release -o out cleanarch.Domain/cleanarch.Domain.csproj
 RUN dotnet publish -c Release -o out cleanarch.UI/cleanarch.UI.csproj
 
 # define a imagem de destino
-FROM mcr.microsoft.com/dotnet/aspnet:5.0
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 # define o diret�rio de trabalho
 WORKDIR /app
