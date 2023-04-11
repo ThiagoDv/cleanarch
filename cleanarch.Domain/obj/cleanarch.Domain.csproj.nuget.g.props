@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\thiagodv\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_MSBuild Condition=" '$(PkgStyleCop_MSBuild)' == '' ">C:\Users\thiagodv\.nuget\packages\stylecop.msbuild\6.2.0</PkgStyleCop_MSBuild>
+  </PropertyGroup>
 </Project>
