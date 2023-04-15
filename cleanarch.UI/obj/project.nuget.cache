@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2idmD5WSEXgo1XRuBqsmEB6bgRsEGdDagG9AYEvsqNDMpurL3hXyp+7Eh+gpV7Dx0ShYwlGWqxnULcsYoe4LnQ==",
+  "dgSpecHash": "AflKMMAEybh87RRSro/RRTPOM18rxM1gUQ6JTzJFk0PSKH8/r73FKM2Cp6zkWAH2ecXBDEcDKgyxq/ak98Jtlw==",
   "success": true,
   "projectFilePath": "I:\\cleanarch\\cleanarch.UI\\cleanarch.UI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\thiagodv\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

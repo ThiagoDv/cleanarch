@@ -14,8 +14,8 @@ namespace cleanarch.Domain.Interfaces
         #endregion
 
         #region CRUD
-        public void Create(Category category);
-        public void Update(Category category);
+        public Task<Category> Create(Category category);
+        public Task<Category> Update(Category category);
         public void Delete(Category category);
         #endregion
     }

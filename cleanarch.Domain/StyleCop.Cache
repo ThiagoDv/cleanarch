@@ -1,5 +1,8 @@
 <stylecopresultscache>
   <version>12</version>
+  <project key="-1381082723">
+    <configuration>TRACE;DEBUG;NET;NET6_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER</configuration>
+  </project>
   <sourcecode name="Category.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
@@ -388,7 +391,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/11 11:56:06.031</sourceFile>
+      <sourceFile>2023/04/12 22:35:55.998</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -462,7 +465,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/11 11:56:19.934</sourceFile>
+      <sourceFile>2023/04/14 21:38:15.267</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -510,11 +513,6 @@
         <line>17</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
-        <context>Variable names and private field names must start with a lower-case letter: Product.</context>
-        <line>17</line>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
         <line>18</line>
@@ -525,11 +523,6 @@
         <line>18</line>
         <warning>False</warning>
       </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
-        <context>Variable names and private field names must start with a lower-case letter: Product.</context>
-        <line>18</line>
-        <warning>False</warning>
-      </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
         <line>19</line>
@@ -537,11 +530,6 @@
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="ElementsMustBeSeparatedByBlankLine" ruleCheckId="SA1516">
         <context>Adjacent elements must be separated by a blank line.</context>
-        <line>19</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
-        <context>Variable names and private field names must start with a lower-case letter: Product.</context>
         <line>19</line>
         <warning>False</warning>
       </violation>
@@ -661,7 +649,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/08 17:21:16.318</sourceFile>
+      <sourceFile>2023/04/15 13:13:39.411</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -680,7 +668,4 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-1381082723">
-    <configuration>TRACE;DEBUG;NET;NET6_0;NETCOREAPP;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NETCOREAPP1_0_OR_GREATER;NETCOREAPP1_1_OR_GREATER;NETCOREAPP2_0_OR_GREATER;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_2_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER</configuration>
-  </project>
 </stylecopresultscache>

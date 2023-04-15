@@ -1,0 +1,17 @@
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Infra.Data.deps.json
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Infra.Data.runtimeconfig.json
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Infra.Data.dll
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Infra.Data.pdb
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Domain.dll
+I:\cleanarch\cleanarch.Infra.Data\bin\Debug\net6.0\cleanarch.Domain.pdb
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.csproj.AssemblyReference.cache
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.AssemblyInfoInputs.cache
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.AssemblyInfo.cs
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.csproj.CoreCompileInputs.cache
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.csproj.CopyComplete
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.dll
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\refint\cleanarch.Infra.Data.dll
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.pdb
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\cleanarch.Infra.Data.genruntimeconfig.cache
+I:\cleanarch\cleanarch.Infra.Data\obj\Debug\net6.0\ref\cleanarch.Infra.Data.dll

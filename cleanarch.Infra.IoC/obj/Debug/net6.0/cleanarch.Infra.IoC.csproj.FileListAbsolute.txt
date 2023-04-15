@@ -1,0 +1,17 @@
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Infra.IoC.deps.json
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Infra.IoC.dll
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Infra.IoC.pdb
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Domain.dll
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Infra.Data.dll
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Infra.Data.pdb
+I:\cleanarch\cleanarch.Infra.IoC\bin\Debug\net6.0\cleanarch.Domain.pdb
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.csproj.AssemblyReference.cache
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.AssemblyInfoInputs.cache
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.AssemblyInfo.cs
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.csproj.CoreCompileInputs.cache
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.csproj.CopyComplete
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.dll
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\refint\cleanarch.Infra.IoC.dll
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\cleanarch.Infra.IoC.pdb
+I:\cleanarch\cleanarch.Infra.IoC\obj\Debug\net6.0\ref\cleanarch.Infra.IoC.dll

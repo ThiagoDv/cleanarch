@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("051105e3-0a2e-405e-a6a2-42a749f6cf4d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("cleanarch.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
