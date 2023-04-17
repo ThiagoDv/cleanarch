@@ -26,20 +26,20 @@ namespace cleanarch.Domain.Entities
         #endregion
 
         #region Construtores
-        public Product(int id, string name, string description, decimal price, long stock, string imagem)
+        public Product(int id, string name, string description, decimal price, long stock, string image)
         {
             DomainExceptionValidation.When(id < 0, "Id inválido");
-            ValidateProduct(name, description, price, stock, imagem);
+            ValidateProduct(name, description, price, stock, image);
         }
-        public Product(string name, string description, decimal price, long stock, string imagem)
+        public Product(string name, string description, decimal price, long stock, string image)
         {
-            ValidateProduct(name, description, price, stock, imagem);
+            ValidateProduct(name, description, price, stock, image);
         }
         #endregion
 
         #region Métodos
 
-        private void ValidateProduct(string name, string description, decimal price, long stock, string imagem)
+        private void ValidateProduct(string name, string description, decimal price, long stock, string image)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Nome é obrigatório");
 
@@ -49,14 +49,14 @@ namespace cleanarch.Domain.Entities
 
             DomainExceptionValidation.When(stock < 0, "Estoque inválido");
 
-            DomainExceptionValidation.When(string.IsNullOrEmpty(imagem), "Image é obrigatório");
+            DomainExceptionValidation.When(string.IsNullOrEmpty(image), "Image é obrigatório");
 
             Name = name;
             Description = description;
             Price = price;
             Stock = stock;
-            Image = imagem;
-        }                
+            Image = image;
+        }
 
         #endregion
     }

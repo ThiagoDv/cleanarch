@@ -200,7 +200,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/11 09:46:17.442</sourceFile>
+      <sourceFile>2023/04/15 15:15:36.392</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -296,8 +296,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to ValidateProduct must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>32</line>
-        <index>895</index>
-        <endIndex>909</endIndex>
+        <index>894</index>
+        <endIndex>908</endIndex>
         <startLine>32</startLine>
         <startColumn>13</startColumn>
         <endLine>32</endLine>
@@ -317,8 +317,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to ValidateProduct must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>36</line>
-        <index>1087</index>
-        <endIndex>1101</endIndex>
+        <index>1084</index>
+        <endIndex>1098</endIndex>
         <startLine>36</startLine>
         <startColumn>13</startColumn>
         <endLine>36</endLine>
@@ -333,8 +333,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to Name must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>54</line>
-        <index>1793</index>
-        <endIndex>1796</endIndex>
+        <index>1787</index>
+        <endIndex>1790</endIndex>
         <startLine>54</startLine>
         <startColumn>13</startColumn>
         <endLine>54</endLine>
@@ -344,8 +344,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to Description must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>55</line>
-        <index>1819</index>
-        <endIndex>1829</endIndex>
+        <index>1813</index>
+        <endIndex>1823</endIndex>
         <startLine>55</startLine>
         <startColumn>13</startColumn>
         <endLine>55</endLine>
@@ -355,8 +355,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to Price must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>56</line>
-        <index>1859</index>
-        <endIndex>1863</endIndex>
+        <index>1853</index>
+        <endIndex>1857</endIndex>
         <startLine>56</startLine>
         <startColumn>13</startColumn>
         <endLine>56</endLine>
@@ -366,8 +366,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to Stock must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>57</line>
-        <index>1887</index>
-        <endIndex>1891</endIndex>
+        <index>1881</index>
+        <endIndex>1885</endIndex>
         <startLine>57</startLine>
         <startColumn>13</startColumn>
         <endLine>57</endLine>
@@ -377,8 +377,8 @@
       <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
         <context>The call to Image must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
         <line>58</line>
-        <index>1915</index>
-        <endIndex>1919</endIndex>
+        <index>1909</index>
+        <endIndex>1913</endIndex>
         <startLine>58</startLine>
         <startColumn>13</startColumn>
         <endLine>58</endLine>
@@ -391,7 +391,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/12 22:35:55.998</sourceFile>
+      <sourceFile>2023/04/16 18:45:05.656</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -465,7 +465,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/14 21:38:15.267</sourceFile>
+      <sourceFile>2023/04/16 19:02:39.135</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -649,7 +649,7 @@
     <timestamps>
       <styleCop>2020/07/03 08:36:24.000</styleCop>
       <settingsFile>2020/07/03 08:36:24.000</settingsFile>
-      <sourceFile>2023/04/15 13:13:39.411</sourceFile>
+      <sourceFile>2023/04/16 21:27:39.668</sourceFile>
       <parser>2020/07/03 08:36:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2020/07/03 08:36:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>1608168477</StyleCop.CSharp.DocumentationRules.FilesHashCode>

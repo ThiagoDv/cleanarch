@@ -1,0 +1,15 @@
+I:\cleanarch\cleanarch.Application\bin\Debug\net6.0\cleanarch.Application.deps.json
+I:\cleanarch\cleanarch.Application\bin\Debug\net6.0\cleanarch.Application.dll
+I:\cleanarch\cleanarch.Application\bin\Debug\net6.0\cleanarch.Application.pdb
+I:\cleanarch\cleanarch.Application\bin\Debug\net6.0\cleanarch.Domain.dll
+I:\cleanarch\cleanarch.Application\bin\Debug\net6.0\cleanarch.Domain.pdb
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.csproj.AssemblyReference.cache
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.GeneratedMSBuildEditorConfig.editorconfig
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.AssemblyInfoInputs.cache
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.AssemblyInfo.cs
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.csproj.CoreCompileInputs.cache
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.csproj.CopyComplete
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.dll
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\refint\cleanarch.Application.dll
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\cleanarch.Application.pdb
+I:\cleanarch\cleanarch.Application\obj\Debug\net6.0\ref\cleanarch.Application.dll

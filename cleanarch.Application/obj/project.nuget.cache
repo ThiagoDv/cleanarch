@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fodh4jUm4iN0wH+rUtfkLhZrjuILVZutRt+YzJWabJ5VbtFIf0RcQnJx7HFSdgdDomCZCpQ26JQmOQ9ESRUwJg==",
+  "success": true,
+  "projectFilePath": "I:\\cleanarch\\cleanarch.Application\\cleanarch.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiagodv\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\thiagodv\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

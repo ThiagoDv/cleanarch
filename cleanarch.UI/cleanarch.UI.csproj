@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\cleanarch.Infra.IoC\cleanarch.Infra.IoC.csproj" />
+  </ItemGroup>
+
 </Project>

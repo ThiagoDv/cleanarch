@@ -42,7 +42,7 @@ namespace cleanarch.Infra.Data.Repositories
             return product;
         }
 
-        public async void Delete(Product product)
+        public async Task Delete(Product product)
         {
             _productContext.Remove(product);
             await _productContext.SaveChangesAsync();

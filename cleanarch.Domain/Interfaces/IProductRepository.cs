@@ -16,7 +16,7 @@ namespace cleanarch.Domain.Interfaces
             #region CRUD
             public Task<Product> Create(Product product);
             public Task<Product> Update(Product product);
-            public void Delete(Product product);
+            public Task Delete(Product product);
             #endregion   
     }
 }

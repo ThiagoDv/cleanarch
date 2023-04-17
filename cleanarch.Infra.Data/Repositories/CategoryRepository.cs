@@ -35,7 +35,7 @@ namespace cleanarch.Infra.Data.Repositories
             return category;
         }
 
-        public async void Delete(Category category)
+        public async Task Delete(Category category)
         {
             _categoryContext.Remove(category);
             await _categoryContext.SaveChangesAsync();
