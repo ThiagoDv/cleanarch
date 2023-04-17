@@ -41,4 +41,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # inicia a aplica��o quando o cont�iner for iniciado
-CMD ASPNETCORE_URLS=http://*:$PORT dotnet cleanarch.UI.dll
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet cleanarch.API.dll
