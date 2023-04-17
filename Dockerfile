@@ -5,12 +5,16 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
 # copia todos os arquivos .csproj para o diret�rio de trabalho
+COPY cleanarch.API/*.csproj ./cleanarch.API/
+COPY cleanarch.Application/*.csproj ./cleanarch.Application/
 COPY cleanarch.Domain/*.csproj ./cleanarch.Domain/
 COPY cleanarch.Infra.Data/*.csproj ./cleanarch.Infra.Data/
 COPY cleanarch.Infra.IoC/*.csproj ./cleanarch.Infra.IoC/
 COPY cleanarch.UI/*.csproj ./cleanarch.UI/
 
 # restaura as depend�ncias
+RUN dotnet restore ./cleanarch.API/cleanarch.API.csproj
+RUN dotnet restore ./cleanarch.Application/cleanarch.Application.csproj
 RUN dotnet restore ./cleanarch.Domain/cleanarch.Domain.csproj
 RUN dotnet restore ./cleanarch.Infra.Data/cleanarch.Infra.Data.csproj
 RUN dotnet restore ./cleanarch.Infra.IoC/cleanarch.Infra.IoC.csproj
@@ -20,6 +24,8 @@ RUN dotnet restore ./cleanarch.UI/cleanarch.UI.csproj
 COPY . ./
 
 # compila a aplica��o
+RUN dotnet publish -c Release -o out cleanarch.API/cleanarch.API.csproj
+RUN dotnet publish -c Release -o out cleanarch.Application/cleanarch.Application.csproj
 RUN dotnet publish -c Release -o out cleanarch.Domain/cleanarch.Domain.csproj
 RUN dotnet publish -c Release -o out cleanarch.Infra.Data/cleanarch.Infra.Data.csproj
 RUN dotnet publish -c Release -o out cleanarch.Infra.IoC/cleanarch.Infra.IoC.csproj

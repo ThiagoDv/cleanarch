@@ -5,13 +5,9 @@ namespace cleanarch.Domain.Entities
     /// <summary>
     /// CLASSE RESPONSÁVEL POR CRIAR OBJETOS DO TIPO PRODUTO.
     /// </summary>
-    public sealed class Product
+    public sealed class Product : Entity
     {
         #region Propriedades
-        public int Id { get; private set; }
-
-        public string Name { get; private set; }
-
         public string Description { get; set; }
 
         public decimal Price { get; set; }

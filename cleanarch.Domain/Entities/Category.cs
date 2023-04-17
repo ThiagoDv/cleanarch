@@ -5,13 +5,9 @@ namespace cleanarch.Domain.Entities
     /// <summary>
     /// CLASSE RESPONSÁVEL POR CRIAR OBJETOS DO TIPO CATEGORIA.
     /// </summary>
-    public sealed class Category
+    public sealed class Category : Entity
     {
         #region Propriedades
-        public int Id { get; private set; }
-
-        public string Name { get; private set; }
-
         public ICollection<Product> Products { get; set; }
         #endregion
 
@@ -23,8 +19,8 @@ namespace cleanarch.Domain.Entities
 
         public Category(int id, string name)
         {
+            DomainExceptionValidation.When(id < 0, "Id inválido, precisa ser maior que 0.");
             Id = id;
-            DomainExceptionValidation.When(id <= 0, "Id inválido, precisa ser maior que 0.");
             ValidateCategory(name);
         }
         #endregion

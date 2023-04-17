@@ -45,7 +45,7 @@ namespace cleanarch.API.Controllers
             await _categoryService.Create(categoryDto);
 
             return new CreatedAtRouteResult("GetCategory", new { id = categoryDto.Id },
-                categoryDto);
+            categoryDto);
         }
 
         [HttpPut]
