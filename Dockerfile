@@ -24,12 +24,12 @@ RUN dotnet restore ./cleanarch.UI/cleanarch.UI.csproj
 COPY . ./
 
 # compila a aplica��o
-RUN dotnet publish -c Release -o out cleanarch.API/cleanarch.API.csproj
 RUN dotnet publish -c Release -o out cleanarch.Application/cleanarch.Application.csproj
 RUN dotnet publish -c Release -o out cleanarch.Domain/cleanarch.Domain.csproj
 RUN dotnet publish -c Release -o out cleanarch.Infra.Data/cleanarch.Infra.Data.csproj
 RUN dotnet publish -c Release -o out cleanarch.Infra.IoC/cleanarch.Infra.IoC.csproj
 RUN dotnet publish -c Release -o out cleanarch.UI/cleanarch.UI.csproj
+RUN dotnet publish -c Release -o out cleanarch.API/cleanarch.API.csproj
 
 # define a imagem de destino
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
