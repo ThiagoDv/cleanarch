@@ -11,9 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanarch.Infra.IoC", "clea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanarch.UI", "cleanarch.UI\cleanarch.UI.csproj", "{111F8587-EF7B-4BC4-9B6C-1A346C95A019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanarch.Application", "cleanarch.Application\cleanarch.Application.csproj", "{2D228C01-8CE5-4802-8D5F-91958B748BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanarch.Application", "cleanarch.Application\cleanarch.Application.csproj", "{2D228C01-8CE5-4802-8D5F-91958B748BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cleanarch.API", "cleanarch.API\cleanarch.API.csproj", "{BF2A7D43-0A32-4C4B-9891-C1EC292F026D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cleanarch.API", "cleanarch.API\cleanarch.API.csproj", "{BF2A7D43-0A32-4C4B-9891-C1EC292F026D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9AE2D8C7-5CD0-4D22-835D-9A8AAD91255B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

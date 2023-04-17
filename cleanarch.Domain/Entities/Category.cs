@@ -8,7 +8,7 @@ namespace cleanarch.Domain.Entities
     public sealed class Category : Entity
     {
         #region Propriedades
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product>? Products { get; set; }
         #endregion
 
         #region Construtores
