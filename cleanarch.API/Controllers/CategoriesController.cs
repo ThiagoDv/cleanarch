@@ -14,7 +14,7 @@ namespace cleanarch.API.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetAllCategories")]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
             var categories = await _categoryService.GetAllCategoriesAsync();
@@ -36,7 +36,7 @@ namespace cleanarch.API.Controllers
             return Ok(category);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCategory")]
         public async Task<ActionResult> Post([FromBody] CategoryDTO categoryDto)
         {
             if (categoryDto == null)

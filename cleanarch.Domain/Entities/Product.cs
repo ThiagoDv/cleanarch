@@ -8,23 +8,24 @@ namespace cleanarch.Domain.Entities
     public sealed class Product : Entity
     {
         #region Propriedades
-        public string? Description { get; set; }
+        public string Description { get; set; }
 
-        public decimal? Price { get; set; }
+        public decimal Price { get; set; }
 
-        public long? Stock { get; private set; }
+        public long Stock { get; private set; }
 
-        public string? Image { get; private set; }
+        public string Image { get; private set; }
 
-        public int? CategoryId { get; set; }
+        public int CategoryId { get; set; }
 
-        public Category? Category { get; set; }
+        public Category Category { get; set; }
         #endregion
 
         #region Construtores
         public Product(int id, string name, string description, decimal price, long stock, string image)
         {
             DomainExceptionValidation.When(id < 0, "Id inválido");
+            Id = id;
             ValidateProduct(name, description, price, stock, image);
         }
         public Product(string name, string description, decimal price, long stock, string image)
